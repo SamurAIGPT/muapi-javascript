@@ -1,0 +1,23 @@
+{
+  "name": "muapi-js",
+  "version": "0.1.0",
+  "description": "Official JavaScript SDK for MuAPI",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "keywords": [
+    "muapi",
+    "ai",
+    "image-generation",
+    "video-generation",
+    "audio-generation"
+  ],
+  "author": "MuAPI",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "form-data": "^4.0.4"
+  }
+}

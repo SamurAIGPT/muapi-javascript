@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Package tarballs (npm pack output)
+*.tgz
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Generated / downloaded media from examples
+*.mp4
+*.mp3
+*.wav
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor & IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Build output (if added later)
+dist/
+build/
