@@ -7,6 +7,12 @@ Generate images, videos, audio, edit media, upload files, track predictions, and
 
 ---
 
+## Related Projects
+
+- [MuAPI](https://muapi.ai) — Unified API for image, video, and audio generation across hundreds of AI models. Follow the [API reference](https://muapi.ai/docs/api-reference), [quick start](https://muapi.ai/docs/quick-start), and [access-key guide](https://muapi.ai/access-keys).
+- [muapi-python](https://github.com/SamurAIGPT/muapi-python) — Official Python SDK for the same API.
+- [muapi-ai-sdk-provider](https://github.com/SamurAIGPT/muapi-ai-sdk-provider) — MuAPI provider for the Vercel AI SDK.
+
 ## Installation
 
 ```bash
