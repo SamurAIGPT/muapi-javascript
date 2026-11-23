@@ -64,7 +64,41 @@ export const T2I_MODELS = {
     "ideogram": "ideogram-v3-t2i",
     "reve": "reve-text-to-image",
     "sdxl": "sdxl-image",
-    "grok": "grok-imagine-text-to-image"
+    "grok": "grok-imagine-text-to-image",
+
+    // Flux 3
+    "flux-3": "flux-3-text-to-image",
+    "flux-3-dev": "flux-3-dev",
+    "flux-3-klein": "flux-3-klein-text-to-image",
+
+    // Wan 3.0
+    "wan3.0": "wan3.0-text-to-image",
+
+    // GPT Image 2.5 / 2.6
+    "gpt-image-2.6-flare": "gpt-image-2.6-flare",
+    "gpt-image-2.6-sunburst": "gpt-image-2.6-sunburst",
+    "gpt-image-2.5-flare": "gpt-image-2.5-flare",
+    "gpt-image-2.5-sunburst": "gpt-image-2.5-sunburst",
+
+    // Seedream 5.x / 6.0
+    "seedream-5-flash": "seedream-5.0-flash",
+    "seedream-5-pro": "bytedance-seedream-5.0-pro",
+    "seedream-5.5": "bytedance-seedream-v5.5",
+    "seedream-6": "bytedance-seedream-6.0",
+
+    // Qwen 3
+    "qwen3": "qwen3-image",
+    "qwen3-pro": "qwen3-image-pro",
+    "qwen2.1": "qwen2.1-image",
+
+    // Nano Banana & Z-Image
+    "nano-banana-2-lite": "nano-banana-2-lite",
+    "z-image-p": "z-image-p",
+
+    // Other Next-Gen
+    "grok-imagine-2": "grok-imagine-2-image",
+    "krea-v2-turbo": "krea-v2-turbo",
+    "muse-image": "muse-image-generation",
 };
 
 export const I2I_MODELS = {
@@ -95,7 +129,30 @@ export const I2I_MODELS = {
 
     "wan2.5-edit": "wan2.5-image-edit",
     "wan2.6-edit": "wan2.6-image-edit",
-    "wan2.7-edit": "wan2.7-image-edit"
+    "wan2.7-edit": "wan2.7-image-edit",
+
+    // Flux 3 Edit
+    "flux-3-klein-edit": "flux-3-klein-edit-image",
+    "flux-3-edit": "flux-3-image-to-image",
+
+    // GPT Image Edit
+    "gpt-image-2.6-flare": "gpt-image-2.6-flare",
+    "gpt-image-2.6-sunburst": "gpt-image-2.6-sunburst",
+    "gpt-image-2.5-flare": "gpt-image-2.5-flare",
+    "gpt-image-2.5-sunburst": "gpt-image-2.5-sunburst",
+
+    // Seedream 5 Edit
+    "seedream-5-flash-edit": "seedream-5.0-flash-edit",
+    "seedream-5-flash-layerize": "seedream-5.0-flash-layerize",
+
+    // Qwen 3 Edit
+    "qwen3-edit": "qwen3-image-edit",
+
+    // Wan 3.0 Edit
+    "wan3.0-edit": "wan3.0-image-edit",
+
+    // Face Expression
+    "face-expression": "face-expression-change"
 };
 
 export const T2V_MODELS = {
@@ -135,7 +192,39 @@ export const T2V_MODELS = {
     "sora": "openai-sora",
     "sora-2": "openai-sora-2-text-to-video",
 
-    "hunyuan": "hunyuan-text-to-video"
+    "hunyuan": "hunyuan-text-to-video",
+
+    // Kling 4.0
+    "kling-4.0": "kling-4.0-text-to-video",
+    "kling-4.0-flash": "kling-4.0-flash-text-to-video",
+
+    // Wan 3.0
+    "wan3.0": "wan3.0-text-to-video",
+    "wan3.0-spicy": "wan3.0-spicy-text-to-video",
+    "wan3.0-prime": "wan3.0-prime-text-to-video",
+
+    // Seedance 2.5
+    "seedance-2.5-480p": "seedance-2.5-text-to-video-480p",
+    "seedance-2.5-1080p": "seedance-2.5-text-to-video-1080p",
+    "seedance-2.5-4k": "seedance-2.5-text-to-video-4k",
+    "seedance-2.5-flash": "seedance-2.5-flash-text-to-video",
+    "seedance-2.5-flash-spicy": "seedance-2.5-flash-spicy-text-to-video",
+    "seedance-2.5-flash-intl": "seedance-2.5-flash-text-to-video-international",
+
+    // MiniMax / Hailuo
+    "minimax-h3": "minimax-h3-text-to-video",
+    "minimax-h3-spicy": "minimax-h3-spicy-text-to-video",
+    "hailuo-03": "hailuo-03-text-to-video",
+
+    // Flux 3 Video
+    "flux-3": "flux-3-text-to-video",
+
+    // Gemini Omni Video
+    "gemini-omni": "gemini-omni-text-to-video",
+    "gemini-omni-flash": "gemini-omni-1.1-flash-text-to-video",
+
+    // Happy Horse
+    "happy-horse-1": "happy-horse-1-text-to-video-1080p"
 };
 
 export const I2V_MODELS = {
@@ -176,7 +265,37 @@ export const I2V_MODELS = {
 
     "sora-2": "openai-sora-2-image-to-video",
 
-    "hunyuan": "hunyuan-image-to-video"
+    "hunyuan": "hunyuan-image-to-video",
+
+    // Kling 4.0
+    "kling-4.0-ref": "kling-4.0-reference-to-video",
+    "kling-4.0-keyframe": "kling-4.0-keyframe-image-to-video",
+
+    // Wan 3.0
+    "wan3.0-ref": "wan3.0-reference-to-video",
+    "wan3.0-prime": "wan3.0-prime-image-to-video",
+    "wan3.0-spicy": "wan3.0-spicy-image-to-video",
+
+    // Seedance 2.5
+    "seedance-2.5-flash": "seedance-2.5-flash-image-to-video",
+    "seedance-2.5-flash-ref": "seedance-2.5-flash-reference-to-video",
+    "seedance-2.5-flash-spicy": "seedance-2.5-flash-spicy-image-to-video",
+    "seedance-2.5-flash-intl": "seedance-2.5-flash-image-to-video-international",
+
+    // MiniMax H3
+    "minimax-h3": "minimax-h3-image-to-video",
+    "minimax-h3-spicy": "minimax-h3-spicy-image-to-video",
+
+    // Flux 3
+    "flux-3": "flux-3-image-to-video",
+
+    // Gemini Omni
+    "gemini-omni-flash": "gemini-omni-1.1-flash-image-to-video",
+    "gemini-omni-flash-ref": "gemini-omni-1.1-flash-reference-to-video",
+
+    // Happy Horse
+    "happy-horse-1": "happy-horse-1-image-to-video-1080p",
+    "happy-horse-1-ref": "happy-horse-1-reference-to-video-1080p"
 };
 
 export const LIST_INPUT_I2V = new Set([
@@ -196,5 +315,24 @@ export const LIST_INPUT_I2V = new Set([
     "pixverse-v5",
     "pixverse-v6",
 
-    "sora-2"
+    "sora-2",
+
+    "wan3.0-ref",
+    "wan3.0-prime",
+    "wan3.0-spicy",
+
+    "seedance-2.5-flash",
+    "seedance-2.5-flash-ref",
+    "seedance-2.5-flash-spicy",
+    "seedance-2.5-flash-intl",
+
+    "kling-4.0-ref",
+    "kling-4.0-keyframe",
+
+    "gemini-omni-flash-ref",
+    "flux-3",
+    "minimax-h3",
+    "minimax-h3-spicy",
+    "happy-horse-1",
+    "happy-horse-1-ref"
 ]);
